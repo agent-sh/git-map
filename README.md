@@ -1,6 +1,6 @@
 # git-map
 
-Git history analysis for AI agents - hotspots, coupling, ownership, bus factor, bugspots, area health, AI detection, and 14 more queries backed by a cached, incrementally-updatable Rust binary.
+Git history analysis for AI agents - hotspots, coupling, ownership, bus factor, bugspots, area health, AI detection, and 13 more queries backed by a cached, incrementally-updatable Rust binary.
 
 Part of the [agentsys](https://github.com/agent-sh/agentsys) ecosystem.
 
@@ -40,7 +40,7 @@ After init, the artifact is cached as `repo-intel.json`. Subsequent queries are 
 | `status` | Check cache staleness - commits behind, last analyzed date |
 | `query <type>` | Run a specific analysis query |
 
-## 21 query types
+## 20 query types
 
 ### Activity
 
